@@ -2,5 +2,5 @@
 
 print('Hello world!')
 
-name = input('What is u name, kid?')
+name = input('What is u name, man?')
 print(f'Hi, {name}!')
