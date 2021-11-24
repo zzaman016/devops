@@ -16,3 +16,4 @@ obj = {
         'name' : name,
         'age' : age,
     }
+print(obj)
