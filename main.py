@@ -1,5 +1,7 @@
 #!/bin/sh
 
+import json
+
 print('Hello world!')
 
 name = input('What is u name, kid?')
@@ -16,4 +18,6 @@ obj = {
         'name' : name,
         'age' : age,
     }
+
 print(obj)
+print(json.dumps(obj))
